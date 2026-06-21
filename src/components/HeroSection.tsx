@@ -17,9 +17,11 @@ export function HeroSection() {
       <p className="mb-8 max-w-xl text-gray-400">Модерация, развлечения и автоматизация — всё в одном боте. Подключите за пару кликов.</p>
 
       <div className="flex flex-col sm:flex-row items-center gap-4">
-        <Button className="rounded-full bg-violet-600 px-6 hover:bg-violet-700 text-white">
-          Добавить бота <ArrowUpRight className="ml-2 h-4 w-4" />
-        </Button>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <Button className="rounded-full bg-violet-600 px-6 hover:bg-violet-700 text-white">
+            Добавить бота <ArrowUpRight className="ml-2 h-4 w-4" />
+          </Button>
+        </a>
         <Button variant="outline" className="rounded-full border-gray-700 bg-transparent text-white hover:bg-gray-800">
           <Play className="mr-2 h-4 w-4 fill-violet-500 text-violet-500" /> Смотреть демо
         </Button>

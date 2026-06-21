@@ -29,12 +29,14 @@ export function Header() {
         </a>
       </nav>
 
-      <Button
-        variant="outline"
-        className="rounded-full border-violet-500 text-violet-400 hover:bg-violet-500/10 hover:text-violet-300 bg-transparent"
-      >
-        Добавить бота
-      </Button>
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        <Button
+          variant="outline"
+          className="rounded-full border-violet-500 text-violet-400 hover:bg-violet-500/10 hover:text-violet-300 bg-transparent"
+        >
+          Добавить бота
+        </Button>
+      </a>
     </header>
   )
 }

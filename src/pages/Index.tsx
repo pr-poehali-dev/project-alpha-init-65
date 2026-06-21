@@ -2,6 +2,7 @@ import { Header } from "@/components/Header"
 import { HeroSection } from "@/components/HeroSection"
 import { PartnersSection } from "@/components/PartnersSection"
 import { FeaturesSection } from "@/components/FeaturesSection"
+import { PricingSection } from "@/components/PricingSection"
 
 export default function Index() {
   return (
@@ -10,9 +11,10 @@ export default function Index() {
       <HeroSection />
       <PartnersSection />
       <FeaturesSection />
+      <PricingSection />
       <footer className="py-8 text-center text-sm text-gray-400">
-        От безопасных платежей до синхронизации счетов —{" "}
-        <span className="font-medium text-white">всё работает в одном месте.</span>
+        Lolka.app — бот, который делает чат живым.{" "}
+        <span className="font-medium text-white">Подключи за пару кликов.</span>
       </footer>
     </main>
   )
